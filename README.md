@@ -6,4 +6,4 @@ to run the api you must:
 
 1.- install the node packages ---> npm i
 
-2.- strat the server ---> npm start
+2.- start the server ---> npm start
