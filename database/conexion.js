@@ -2,7 +2,7 @@ import mongoose from 'mongoose';
 
 const conexion = async () => {
     try {
-        await mongoose.connect('mongodb+srv://vfernandezlagos:mugs7PuIeCCrPkL2@blogapidb.hd394fx.mongodb.net/?retryWrites=true&w=majority/blogApiDB');
+        await mongoose.connect('mongodb+srv://vfernandezlagos:mugs7PuIeCCrPkL2@blogapidb.hd394fx.mongodb.net/blogApiDB');
         console.log('DB mi_blog Conectada');
     }catch(error){
         console.log(error);
